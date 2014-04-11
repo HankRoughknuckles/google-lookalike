@@ -1,0 +1,102 @@
+/*=======================================================================
+ *
+ * Nav elements
+ *
+ =======================================================================*/
+nav {
+  height: 10%;
+  width: 100%;
+  text-align: right;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 0.5%;
+}
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+a.nav-link {
+  color: #555555;
+}
+
+.nav-group {
+  display: inline;
+  margin-left: 1%;
+}
+
+.img-bubble-small {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+
+/*=======================================================================
+ *
+ * Buttons
+ *
+ =======================================================================*/
+.btn-basic {
+  background-color: #f4f4f4;
+  min-width: 4%;
+  padding: 8px 8px;
+  cursor: pointer;
+  border: 0;
+}
+  .btn-basic:hover {
+    text-decoration: none;
+  }
+
+.btn-round-border {
+  border: 1px grey solid;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+
+
+/*=======================================================================
+ *
+ * Main section stuff
+ *
+ =======================================================================*/
+#main {
+  height: 80%;
+  text-align: center;
+}
+
+#main input[type="submit"] {
+  min-width: 5%;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+#google-icon {
+  margin-top: 10%;
+}
+
+#search-box {
+  padding: 2px;
+  display: block;
+  margin: 1% auto 0 auto;
+  height: 8%;
+  min-height: 30px;
+  width: 40%;
+  font-size: 1em;
+  outline: none;
+}
+  #search-box:focus {
+    box-shadow: 0 0 0 blue;
+    border: blue 1px solid;
+  }
