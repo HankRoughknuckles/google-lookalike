@@ -90,8 +90,7 @@ a.nav-link {
   padding: 0.05em 0.5em;
   display: block;
   margin: 1% auto 0 auto;
-  height: 8%;
-  min-height: 30px;
+  height: 2em;
   width: 40%;
   font-size: 1em;
   outline: none;
